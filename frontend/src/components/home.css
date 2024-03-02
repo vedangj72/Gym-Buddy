@@ -1,0 +1,23 @@
+/* In a CSS stylesheet, or within a <style> tag in your component */
+
+.workout-item {
+    list-style: none;
+    margin: 5px;
+    /* Add a margin to create separation */
+    padding: 10px;
+    /* Add padding for spacing and a clear background */
+    border: 1px solid #ccc;
+    /* Add a border for separation */
+    border-radius: 5px;
+    /* Add rounded corners */
+}
+
+.title {
+    font-weight: bold;
+}
+
+.reps,
+.load {
+    margin-top: 5px;
+    /* Add margin between items */
+}
